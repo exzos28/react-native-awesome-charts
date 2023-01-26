@@ -17,6 +17,16 @@ module.exports = function (api) {
           },
         },
       ],
+      // [
+      //   'rename-jsx-attribute',
+      //   {
+      //     attributes: {
+      //       onPress: 'onClick',
+      //     },
+      //   },
+      // ],
+      '@babel/plugin-proposal-export-namespace-from',
+      'react-native-reanimated/plugin',
     ],
   };
 };

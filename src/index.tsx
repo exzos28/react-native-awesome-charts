@@ -1,3 +1,4 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+export {
+  default as AwesomeLinearChart,
+  LinearChartProps as AwesomeLinearChartProps,
+} from './LinearChart';
